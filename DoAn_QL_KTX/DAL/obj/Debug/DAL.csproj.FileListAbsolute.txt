@@ -1,0 +1,6 @@
+D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\bin\Debug\DAL.dll
+D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\bin\Debug\DAL.pdb
+D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.dll
+D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.pdb
