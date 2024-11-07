@@ -1,0 +1,857 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\hocki 7\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_trangsau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_trangsau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\hocki 7\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_trangtruoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_trangtruoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\hocki 7\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\hocki 7\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\txt_matkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\txt_matkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\txt_khongkytudacbiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\txt_khongkytudacbiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\quanlytrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\quanlytrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|d:\\hocki 7\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\gui\\quanlynoiquy.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\quanlynoiquy.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\txt_khongkytudacbiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\txt_khongkytudacbiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\txt_tendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\txt_tendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19235E35-6F52-4D09-A7B2-0E70808B65F1}|ThuVien1\\ThuVien1.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien1\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19235E35-6F52-4D09-A7B2-0E70808B65F1}|ThuVien1\\ThuVien1.csproj|solutionrelative:thuvien1\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19235E35-6F52-4D09-A7B2-0E70808B65F1}|ThuVien1\\ThuVien1.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien1\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19235E35-6F52-4D09-A7B2-0E70808B65F1}|ThuVien1\\ThuVien1.csproj|solutionrelative:thuvien1\\quanlynoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2958BACB-DEF1-4801-9CFF-0F174DDDC34F}|ThuVien2\\ThuVien2.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien2\\quanly_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2958BACB-DEF1-4801-9CFF-0F174DDDC34F}|ThuVien2\\ThuVien2.csproj|solutionrelative:thuvien2\\quanly_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2958BACB-DEF1-4801-9CFF-0F174DDDC34F}|ThuVien2\\ThuVien2.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien2\\quanly_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2958BACB-DEF1-4801-9CFF-0F174DDDC34F}|ThuVien2\\ThuVien2.csproj|solutionrelative:thuvien2\\quanly_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\bll\\bll_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|solutionrelative:bll\\bll_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\dal\\dal_loainoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|solutionrelative:dal\\dal_loainoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\bll\\bll_loainoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|solutionrelative:bll\\bll_loainoiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\txt_tendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\txt_tendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\txt_matkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\txt_matkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\dal\\dal_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|solutionrelative:dal\\dal_noiquy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92BC7309-1C2B-4D00-B0C3-12D72D480D61}|DTO\\DTO.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\dto\\da_ql_ktx.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{92BC7309-1C2B-4D00-B0C3-12D72D480D61}|DTO\\DTO.csproj|solutionrelative:dto\\da_ql_ktx.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ThuVien||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2958BACB-DEF1-4801-9CFF-0F174DDDC34F}|ThuVien2\\ThuVien2.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2958BACB-DEF1-4801-9CFF-0F174DDDC34F}|ThuVien2\\ThuVien2.csproj|solutionrelative:thuvien2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19235E35-6F52-4D09-A7B2-0E70808B65F1}|ThuVien1\\ThuVien1.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19235E35-6F52-4D09-A7B2-0E70808B65F1}|ThuVien1\\ThuVien1.csproj|solutionrelative:thuvien1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\yeucausuachua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\yeucausuachua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\datagv_ds_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\datagv_ds_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\datagv_ds_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\datagv_ds_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\quanlyphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\dangkyluutru.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\dangkyluutru.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\thuvien\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33B2636-8CFC-4BDB-B8F3-7943A3C5F703}|ThuVien\\ThuVien.csproj|solutionrelative:thuvien\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92BC7309-1C2B-4D00-B0C3-12D72D480D61}|DTO\\DTO.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92BC7309-1C2B-4D00-B0C3-12D72D480D61}|DTO\\DTO.csproj|solutionrelative:dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "btn_TrangSau.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangSau.cs",
+              "RelativeDocumentMoniker": "Control\\btn_TrangSau.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangSau.cs",
+              "RelativeToolTip": "Control\\btn_TrangSau.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:48:47.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "btn_TrangTruoc.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangTruoc.cs",
+              "RelativeDocumentMoniker": "Control\\btn_TrangTruoc.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangTruoc.cs",
+              "RelativeToolTip": "Control\\btn_TrangTruoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:47:30.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "btn_CustomRedButton.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs",
+              "RelativeDocumentMoniker": "Control\\btn_CustomRedButton.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs [Design]",
+              "RelativeToolTip": "Control\\btn_CustomRedButton.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:44:27.785Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "btn_CustomRedButton.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs",
+              "RelativeDocumentMoniker": "Control\\btn_CustomRedButton.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs",
+              "RelativeToolTip": "Control\\btn_CustomRedButton.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:41:35.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLyNoiQuy.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyNoiQuy.cs",
+              "RelativeDocumentMoniker": "GUI\\QuanLyNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyNoiQuy.cs [Design]*",
+              "RelativeToolTip": "GUI\\QuanLyNoiQuy.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:35:24.121Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\FormMain.cs",
+              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\FormMain.cs [Design]",
+              "RelativeToolTip": "GUI\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:04:26.384Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyNoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyNoiQuy.cs",
+              "RelativeDocumentMoniker": "GUI\\QuanLyNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyNoiQuy.cs*",
+              "RelativeToolTip": "GUI\\QuanLyNoiQuy.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAowGQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:53:57.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuanLyTrangThietBi.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyTrangThietBi.cs",
+              "RelativeDocumentMoniker": "GUI\\QuanLyTrangThietBi.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyTrangThietBi.cs [Design]",
+              "RelativeToolTip": "GUI\\QuanLyTrangThietBi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:23:50.554Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "txt_KhongKyTuDacBiet.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_KhongKyTuDacBiet.cs",
+              "RelativeDocumentMoniker": "Control\\txt_KhongKyTuDacBiet.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_KhongKyTuDacBiet.cs [Design]",
+              "RelativeToolTip": "Control\\txt_KhongKyTuDacBiet.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:05:04.058Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "txt_MatKhau.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_MatKhau.cs",
+              "RelativeDocumentMoniker": "Control\\txt_MatKhau.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_MatKhau.cs",
+              "RelativeToolTip": "Control\\txt_MatKhau.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:00:59.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuanLyNoiQuy.Designer.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyNoiQuy.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\QuanLyNoiQuy.Designer.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\QuanLyNoiQuy.Designer.cs*",
+              "RelativeToolTip": "GUI\\QuanLyNoiQuy.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:58:38.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\FormMain.cs",
+              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\FormMain.cs",
+              "RelativeToolTip": "GUI\\FormMain.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAYwIYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T02:08:08.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "txt_KhongKyTuDacBiet.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_KhongKyTuDacBiet.cs",
+              "RelativeDocumentMoniker": "Control\\txt_KhongKyTuDacBiet.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_KhongKyTuDacBiet.cs",
+              "RelativeToolTip": "Control\\txt_KhongKyTuDacBiet.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T17:24:15.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:39:22.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DangKyLuuTru.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangKyLuuTru.cs",
+              "RelativeDocumentMoniker": "ThuVien\\DangKyLuuTru.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangKyLuuTru.cs [Design]",
+              "RelativeToolTip": "ThuVien\\DangKyLuuTru.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:47:22.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuanLyPhong.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyPhong.cs",
+              "RelativeDocumentMoniker": "ThuVien\\QuanLyPhong.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyPhong.cs [Design]",
+              "RelativeToolTip": "ThuVien\\QuanLyPhong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T05:13:06.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuanLyNoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyNoiQuy.cs",
+              "RelativeDocumentMoniker": "ThuVien\\QuanLyNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyNoiQuy.cs",
+              "RelativeToolTip": "ThuVien\\QuanLyNoiQuy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:57:24.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QuanLyNoiQuy.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyNoiQuy.cs",
+              "RelativeDocumentMoniker": "ThuVien\\QuanLyNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyNoiQuy.cs [Design]",
+              "RelativeToolTip": "ThuVien\\QuanLyNoiQuy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:50:11.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "txt_tenDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_tenDangNhap.cs",
+              "RelativeDocumentMoniker": "Control\\txt_tenDangNhap.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_tenDangNhap.cs [Design]",
+              "RelativeToolTip": "Control\\txt_tenDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T17:21:48.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuanLyNoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien1\\QuanLyNoiQuy.cs",
+              "RelativeDocumentMoniker": "ThuVien1\\QuanLyNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien1\\QuanLyNoiQuy.cs",
+              "RelativeToolTip": "ThuVien1\\QuanLyNoiQuy.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:07:02.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuanLyNoiQuy.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien1\\QuanLyNoiQuy.cs",
+              "RelativeDocumentMoniker": "ThuVien1\\QuanLyNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien1\\QuanLyNoiQuy.cs [Design]",
+              "RelativeToolTip": "ThuVien1\\QuanLyNoiQuy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:06:40.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QuanLy_NoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien2\\QuanLy_NoiQuy.cs",
+              "RelativeDocumentMoniker": "ThuVien2\\QuanLy_NoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien2\\QuanLy_NoiQuy.cs",
+              "RelativeToolTip": "ThuVien2\\QuanLy_NoiQuy.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:25:41.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuanLy_NoiQuy.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien2\\QuanLy_NoiQuy.cs",
+              "RelativeDocumentMoniker": "ThuVien2\\QuanLy_NoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien2\\QuanLy_NoiQuy.cs [Design]",
+              "RelativeToolTip": "ThuVien2\\QuanLy_NoiQuy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:25:22.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BLL_NoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\BLL\\BLL_NoiQuy.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_NoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\BLL\\BLL_NoiQuy.cs",
+              "RelativeToolTip": "BLL\\BLL_NoiQuy.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvx0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:19:54.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BLL_LoaiNoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\BLL\\BLL_LoaiNoiQuy.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_LoaiNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\BLL\\BLL_LoaiNoiQuy.cs",
+              "RelativeToolTip": "BLL\\BLL_LoaiNoiQuy.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:48:51.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\Form1.cs",
+              "RelativeDocumentMoniker": "GUI\\Form1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\Form1.cs [Design]",
+              "RelativeToolTip": "GUI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T13:54:23.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DAL_LoaiNoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DAL\\DAL_LoaiNoiQuy.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_LoaiNoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DAL\\DAL_LoaiNoiQuy.cs",
+              "RelativeToolTip": "DAL\\DAL_LoaiNoiQuy.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:46:52.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "txt_tenDangNhap.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_tenDangNhap.cs",
+              "RelativeDocumentMoniker": "Control\\txt_tenDangNhap.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_tenDangNhap.cs",
+              "RelativeToolTip": "Control\\txt_tenDangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T02:55:14.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DAL_NoiQuy.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DAL\\DAL_NoiQuy.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_NoiQuy.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DAL\\DAL_NoiQuy.cs",
+              "RelativeToolTip": "DAL\\DAL_NoiQuy.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwIgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:17:03.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "txt_MatKhau.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_MatKhau.cs",
+              "RelativeDocumentMoniker": "Control\\txt_MatKhau.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\txt_MatKhau.cs [Design]",
+              "RelativeToolTip": "Control\\txt_MatKhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T04:42:48.217Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DA_QL_KTX.dbml",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DTO\\DA_QL_KTX.dbml",
+              "RelativeDocumentMoniker": "DTO\\DA_QL_KTX.dbml",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DTO\\DA_QL_KTX.dbml",
+              "RelativeToolTip": "DTO\\DA_QL_KTX.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2024-10-27T16:41:55.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ThuVien",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\ThuVien.csproj",
+              "RelativeDocumentMoniker": "ThuVien\\ThuVien.csproj",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\ThuVien.csproj",
+              "RelativeToolTip": "ThuVien\\ThuVien.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-26T03:41:40.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GUI",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\GUI.csproj",
+              "RelativeDocumentMoniker": "GUI\\GUI.csproj",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\GUI.csproj",
+              "RelativeToolTip": "GUI\\GUI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-26T03:42:27.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien2\\Class1.cs",
+              "RelativeDocumentMoniker": "ThuVien2\\Class1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien2\\Class1.cs",
+              "RelativeToolTip": "ThuVien2\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:23:05.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien1\\Class1.cs",
+              "RelativeDocumentMoniker": "ThuVien1\\Class1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien1\\Class1.cs",
+              "RelativeToolTip": "ThuVien1\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:05:09.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "YeuCauSuaChua.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\YeuCauSuaChua.cs",
+              "RelativeDocumentMoniker": "ThuVien\\YeuCauSuaChua.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DoAn_QL_KTX\\DoAn_QL_KTX\\ThuVien\\YeuCauSuaChua.cs [Design]",
+              "RelativeToolTip": "..\\..\\DoAn_QL_KTX\\DoAn_QL_KTX\\ThuVien\\YeuCauSuaChua.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T02:28:00.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangNhap.cs",
+              "RelativeDocumentMoniker": "ThuVien\\DangNhap.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DoAn_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangNhap.cs [Design]",
+              "RelativeToolTip": "..\\..\\DoAn_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:37:19.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DataGV_DS_Phong.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\DataGV_DS_Phong.cs",
+              "RelativeDocumentMoniker": "Control\\DataGV_DS_Phong.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\DataGV_DS_Phong.cs",
+              "RelativeToolTip": "Control\\DataGV_DS_Phong.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwKcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T05:17:21.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DataGV_DS_Phong.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\DataGV_DS_Phong.cs",
+              "RelativeDocumentMoniker": "Control\\DataGV_DS_Phong.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DoAn_QL_KTX\\DoAn_QL_KTX\\Control\\DataGV_DS_Phong.cs [Design]",
+              "RelativeToolTip": "..\\..\\DoAn_QL_KTX\\DoAn_QL_KTX\\Control\\DataGV_DS_Phong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T05:17:17.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "QuanLyPhong.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyPhong.cs",
+              "RelativeDocumentMoniker": "ThuVien\\QuanLyPhong.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\QuanLyPhong.cs",
+              "RelativeToolTip": "ThuVien\\QuanLyPhong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T05:40:39.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\FormMain.Designer.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\FormMain.Designer.cs",
+              "RelativeToolTip": "GUI\\FormMain.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T05:02:33.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangNhap.cs",
+              "RelativeDocumentMoniker": "ThuVien\\DangNhap.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangNhap.cs",
+              "RelativeToolTip": "ThuVien\\DangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:39:25.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DangKyLuuTru.Designer.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangKyLuuTru.Designer.cs",
+              "RelativeDocumentMoniker": "ThuVien\\DangKyLuuTru.Designer.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangKyLuuTru.Designer.cs",
+              "RelativeToolTip": "ThuVien\\DangKyLuuTru.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T04:31:12.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DangKyLuuTru.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangKyLuuTru.cs",
+              "RelativeDocumentMoniker": "ThuVien\\DangKyLuuTru.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\DangKyLuuTru.cs",
+              "RelativeToolTip": "ThuVien\\DangKyLuuTru.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T04:03:47.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "GUI\\Properties\\Settings.settings",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\Properties\\Settings.settings",
+              "RelativeToolTip": "GUI\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-10-26T03:42:37.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ThuVien\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "ThuVien\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T03:41:52.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\GUI\\Login.cs",
+              "RelativeDocumentMoniker": "GUI\\Login.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DoAn_QL_KTX\\DoAn_QL_KTX\\GUI\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\DoAn_QL_KTX\\DoAn_QL_KTX\\GUI\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:00:20.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\Class1.cs",
+              "RelativeDocumentMoniker": "Control\\Class1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\Class1.cs",
+              "RelativeToolTip": "Control\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T02:51:55.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\Class1.cs",
+              "RelativeDocumentMoniker": "ThuVien\\Class1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\ThuVien\\Class1.cs",
+              "RelativeToolTip": "ThuVien\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:26:55.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DTO\\Class1.cs",
+              "RelativeDocumentMoniker": "DTO\\Class1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DTO\\Class1.cs",
+              "RelativeToolTip": "DTO\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:26:41.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:26:27.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "D:\\HocKi 7\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:25:57.853Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

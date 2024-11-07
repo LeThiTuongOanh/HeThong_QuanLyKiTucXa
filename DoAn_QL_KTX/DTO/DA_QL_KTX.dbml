@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DA_QL_KTX" Class="DA_QL_KTXDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WINDOWS-11\SQLEXPRESS;Initial Catalog=DA_QL_KTX;User ID=sa;Trust Server Certificate=True" SettingsObjectName="DTO.Properties.Settings" SettingsPropertyName="DA_QL_KTXConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.LoaiNoiQuy" Member="LoaiNoiQuys">
+    <Type Name="LoaiNoiQuy">
+      <Column Name="MaLoaiNQ" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenLoaiNQ" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="MoTa" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LoaiNoiQuy_NoiQuy" Member="NoiQuys" ThisKey="MaLoaiNQ" OtherKey="MaLoaiNQ" Type="NoiQuy" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NoiQuy" Member="NoiQuys">
+    <Type Name="NoiQuy">
+      <Column Name="MaNoiQuy" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNoiQuy" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MucPhatTien" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="HinhThucXL" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MaLoaiNQ" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="LoaiNoiQuy_NoiQuy" Member="LoaiNoiQuy" ThisKey="MaLoaiNQ" OtherKey="MaLoaiNQ" Type="LoaiNoiQuy" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

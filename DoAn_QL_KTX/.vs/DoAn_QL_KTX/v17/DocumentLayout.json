@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_trangtruoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_trangtruoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_trangsau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_trangsau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "btn_TrangTruoc.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangTruoc.cs",
+              "RelativeDocumentMoniker": "Control\\btn_TrangTruoc.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangTruoc.cs [Design]",
+              "RelativeToolTip": "Control\\btn_TrangTruoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:52:37.953Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "btn_TrangSau.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangSau.cs",
+              "RelativeDocumentMoniker": "Control\\btn_TrangSau.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangSau.cs [Design]",
+              "RelativeToolTip": "Control\\btn_TrangSau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:52:36.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "btn_CustomRedButton.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs",
+              "RelativeDocumentMoniker": "Control\\btn_CustomRedButton.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs [Design]",
+              "RelativeToolTip": "Control\\btn_CustomRedButton.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:44:27.785Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

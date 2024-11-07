@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DA_QL_KTX">
+  <DataContextMoniker Name="/DA_QL_KTXDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ed6b9678-bb4a-46b0-892a-209750c5bbad" absoluteBounds="1.125, 0.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DA_QL_KTXDataContext/LoaiNoiQuy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b7f78e7-89f6-45aa-9644-3fcbf04634ef" absoluteBounds="1.1400000000000001, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2a1f19a-a6d3-408c-9a6b-0bde709e5ed6" absoluteBounds="3.75, 2.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DA_QL_KTXDataContext/NoiQuy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48f2bfe7-5770-42cb-ab07-e2fc0f345e31" absoluteBounds="3.765, 2.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.125 : 2.2612939453125); (3.75 : 2.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DA_QL_KTXDataContext/LoaiNoiQuy/LoaiNoiQuy_NoiQuy" />
+      <nodes>
+        <classShapeMoniker Id="ed6b9678-bb4a-46b0-892a-209750c5bbad" />
+        <classShapeMoniker Id="c2a1f19a-a6d3-408c-9a6b-0bde709e5ed6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
