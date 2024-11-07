@@ -4,13 +4,13 @@ D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.Asse
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.dll
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\bin\Debug\DAL.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\bin\Debug\DAL.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\bin\Debug\DTO.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\bin\Debug\DTO.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\bin\Debug\DTO.dll.config
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\bin\Debug\DAL.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\bin\Debug\DAL.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\obj\Debug\DAL.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\obj\Debug\DAL.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\bin\Debug\DTO.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\bin\Debug\DTO.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\bin\Debug\DTO.dll.config
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DAL\obj\Debug\DAL.csproj.Up2Date

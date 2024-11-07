@@ -1,18 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\",
+  "WorkspaceRootPath": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_trangtruoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_trangtruoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|d:\\doanchuyennganh\\qlktx\\doan_quanlykytucxa\\doan_ql_ktx\\dal\\ql_dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|solutionrelative:dal\\ql_dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|d:\\doanchuyennganh\\dacn_ql_ktx\\doan_ql_ktx\\control\\btn_trangsau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_trangsau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|d:\\doanchuyennganh\\qlktx\\doan_quanlykytucxa\\doan_ql_ktx\\gui\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{48A2BDFC-4E83-4FD1-9914-3B2988F18D5D}|Control\\Control.csproj|solutionrelative:control\\btn_customredbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\bll\\ql_luutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|solutionrelative:bll\\ql_luutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\gui\\thongtinsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\thongtinsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|d:\\doanchuyennganh\\qlktx\\doan_quanlykytucxa\\doan_ql_ktx\\gui\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\dangkyluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|d:\\doanchuyennganh\\qlktx\\doan_quanlykytucxa\\doan_ql_ktx\\gui\\thongtinluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\thongtinluutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\gui\\ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\gui\\thongtinsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\thongtinsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\bll\\bll_ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BACFF7-615B-449C-8DF3-491154906DCA}|BLL\\BLL.csproj|solutionrelative:bll\\bll_ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\dal\\dal_ql_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|solutionrelative:dal\\dal_ql_sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\dal\\dal_ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18EC7EC-CF1B-496D-924A-BB644F734FB7}|DAL\\DAL.csproj|solutionrelative:dal\\dal_ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\gui\\ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC6F3A3-8A80-4234-84D4-0304CB7114EF}|GUI\\GUI.csproj|solutionrelative:gui\\ql_phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92BC7309-1C2B-4D00-B0C3-12D72D480D61}|DTO\\DTO.csproj|d:\\doanchuyennganh\\qlktx\\doan_quanlykytucxa\\doan_ql_ktx\\dto\\qlktx.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{92BC7309-1C2B-4D00-B0C3-12D72D480D61}|DTO\\DTO.csproj|solutionrelative:dto\\qlktx.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,38 +79,179 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "btn_TrangTruoc.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangTruoc.cs",
-              "RelativeDocumentMoniker": "Control\\btn_TrangTruoc.cs",
-              "ToolTip": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangTruoc.cs [Design]",
-              "RelativeToolTip": "Control\\btn_TrangTruoc.cs [Design]",
+              "Title": "QL_DangKyLuuTru.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DAL\\QL_DangKyLuuTru.cs",
+              "RelativeDocumentMoniker": "DAL\\QL_DangKyLuuTru.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DAL\\QL_DangKyLuuTru.cs",
+              "RelativeToolTip": "DAL\\QL_DangKyLuuTru.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAIwKMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:52:37.953Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-06T14:11:00.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "btn_TrangSau.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangSau.cs",
-              "RelativeDocumentMoniker": "Control\\btn_TrangSau.cs",
-              "ToolTip": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_TrangSau.cs [Design]",
-              "RelativeToolTip": "Control\\btn_TrangSau.cs [Design]",
+              "Title": "DangKyLuuTru.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\DangKyLuuTru.cs",
+              "RelativeDocumentMoniker": "GUI\\DangKyLuuTru.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\DangKyLuuTru.cs",
+              "RelativeToolTip": "GUI\\DangKyLuuTru.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAkwKwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:52:36.354Z",
+              "WhenOpened": "2024-11-06T14:21:30.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangKyLuuTru.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\DangKyLuuTru.cs",
+              "RelativeDocumentMoniker": "GUI\\DangKyLuuTru.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\DangKyLuuTru.cs [Design]",
+              "RelativeToolTip": "GUI\\DangKyLuuTru.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T14:13:15.451Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "btn_CustomRedButton.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs",
-              "RelativeDocumentMoniker": "Control\\btn_CustomRedButton.cs",
-              "ToolTip": "D:\\DoAnChuyenNganh\\DACN_QL_KTX\\DoAn_QL_KTX\\Control\\btn_CustomRedButton.cs [Design]",
-              "RelativeToolTip": "Control\\btn_CustomRedButton.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "ThongTinLuuTru.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\ThongTinLuuTru.cs",
+              "RelativeDocumentMoniker": "GUI\\ThongTinLuuTru.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\ThongTinLuuTru.cs [Design]",
+              "RelativeToolTip": "GUI\\ThongTinLuuTru.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:44:27.785Z",
+              "WhenOpened": "2024-11-06T14:13:03.819Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThongTinSinhVien.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\ThongTinSinhVien.cs",
+              "RelativeDocumentMoniker": "GUI\\ThongTinSinhVien.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\ThongTinSinhVien.cs",
+              "RelativeToolTip": "GUI\\ThongTinSinhVien.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T06:26:43.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThongTinSinhVien.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\ThongTinSinhVien.cs",
+              "RelativeDocumentMoniker": "GUI\\ThongTinSinhVien.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\ThongTinSinhVien.cs [Design]",
+              "RelativeToolTip": "GUI\\ThongTinSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T06:24:03.037Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QLKTX.dbml",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DTO\\QLKTX.dbml",
+              "RelativeDocumentMoniker": "DTO\\QLKTX.dbml",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DTO\\QLKTX.dbml",
+              "RelativeToolTip": "DTO\\QLKTX.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2024-11-05T03:41:53.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BLL_QL_Phong.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\BLL\\BLL_QL_Phong.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_QL_Phong.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\BLL\\BLL_QL_Phong.cs",
+              "RelativeToolTip": "BLL\\BLL_QL_Phong.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:29:19.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DAL_QL_Phong.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DAL\\DAL_QL_Phong.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_QL_Phong.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DAL\\DAL_QL_Phong.cs",
+              "RelativeToolTip": "DAL\\DAL_QL_Phong.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:28:56.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QL_Phong.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\QL_Phong.cs",
+              "RelativeDocumentMoniker": "GUI\\QL_Phong.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\QL_Phong.cs",
+              "RelativeToolTip": "GUI\\QL_Phong.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAASwJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:23:27.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QL_Phong.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\QL_Phong.cs",
+              "RelativeDocumentMoniker": "GUI\\QL_Phong.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\QL_Phong.cs [Design]",
+              "RelativeToolTip": "GUI\\QL_Phong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:20:11.867Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DAL_QL_SinhVien.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DAL\\DAL_QL_SinhVien.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_QL_SinhVien.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\DAL\\DAL_QL_SinhVien.cs",
+              "RelativeToolTip": "DAL\\DAL_QL_SinhVien.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T14:43:53.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QL_LuuTru.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\BLL\\QL_LuuTru.cs",
+              "RelativeDocumentMoniker": "BLL\\QL_LuuTru.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\BLL\\QL_LuuTru.cs",
+              "RelativeToolTip": "BLL\\QL_LuuTru.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T11:10:46.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\DoAnChuyenNganh\\QLKTX\\DoAn_QuanLyKyTucXa\\DoAn_QL_KTX\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:32:58.4Z",
+              "EditorCaption": ""
             }
           ]
         }

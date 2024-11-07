@@ -43,15 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btn_CustomRedButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="btn_TrangSau.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="btn_TrangTruoc.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="DataGV_DS_Phong.cs">
       <SubType>UserControl</SubType>
@@ -60,13 +51,22 @@
       <DependentUpon>DataGV_DS_Phong.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="txt_KhongKyTuDacBiet.cs">
+    <Compile Include="txt_ChiChuaSo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="txt_email.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="txt_MatKhau.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="txt_SDT.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="txt_tenDangNhap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="txt_Text.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>

@@ -12,7 +12,7 @@ namespace DTO.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.11.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.10.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -26,11 +26,33 @@ namespace DTO.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=WINDOWS-11\\SQLEXPRESS;Initial Catalog=DA_QL_KTX;User ID=sa;Password=1" +
-            "23;TrustServerCertificate=True")]
-        public string DA_QL_KTXConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-RUL1LBP2\\SQLEXPRESS;Initial Catalog=DA_QL_KTX1;Persist Securit" +
+            "y Info=True;User ID=sa;Password=123;TrustServerCertificate=True")]
+        public string DA_QL_KTX1ConnectionString {
             get {
-                return ((string)(this["DA_QL_KTXConnectionString"]));
+                return ((string)(this["DA_QL_KTX1ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-RUL1LBP2\\SQLEXPRESS;Initial Catalog=DA_QL_KTX2;Persist Securit" +
+            "y Info=True;User ID=sa;Password=123;Encrypt=True;TrustServerCertificate=True")]
+        public string DA_QL_KTX2ConnectionString {
+            get {
+                return ((string)(this["DA_QL_KTX2ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-RUL1LBP2\\SQLEXPRESS;Initial Catalog=DA_QL_KTX2;User ID=sa;Pass" +
+            "word=123;TrustServerCertificate=True")]
+        public string DA_QL_KTX2ConnectionString1 {
+            get {
+                return ((string)(this["DA_QL_KTX2ConnectionString1"]));
             }
         }
     }

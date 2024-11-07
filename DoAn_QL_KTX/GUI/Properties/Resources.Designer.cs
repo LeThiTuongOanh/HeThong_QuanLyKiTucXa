@@ -73,26 +73,6 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Action_edit_icon {
-            get {
-                object obj = ResourceManager.GetObject("Action-edit-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Action_file_new_icon {
-            get {
-                object obj = ResourceManager.GetObject("Action-file-new-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Actions_document_new_icon {
             get {
                 object obj = ResourceManager.GetObject("Actions-document-new-icon", resourceCulture);
@@ -106,16 +86,6 @@ namespace GUI.Properties {
         internal static System.Drawing.Bitmap Actions_document_new_icon1 {
             get {
                 object obj = ResourceManager.GetObject("Actions-document-new-icon1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Actions_document_new_icon2 {
-            get {
-                object obj = ResourceManager.GetObject("Actions-document-new-icon2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -84,7 +84,7 @@
             // 
             this.dataGV_DS_Phong1.Location = new System.Drawing.Point(6, 25);
             this.dataGV_DS_Phong1.Name = "dataGV_DS_Phong1";
-            this.dataGV_DS_Phong1.Size = new System.Drawing.Size(547, 374);
+            this.dataGV_DS_Phong1.Size = new System.Drawing.Size(579, 374);
             this.dataGV_DS_Phong1.TabIndex = 0;
             // 
             // QuanLyPhong

@@ -16,32 +16,32 @@ D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\ThuVien.pdb
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\Control.dll
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\Control.pdb
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.Login.resources
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\GUI.exe.config
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\GUI.exe
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\GUI.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\BLL.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\DTO.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\Guna.UI2.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\ThuVien1.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\DAL.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\ThuVien1.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\BLL.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\DTO.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\DTO.dll.config
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\DAL.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.Form1.resources
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.FormMain.resources
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.Login.resources
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.Properties.Resources.resources
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.Up2Date
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.exe
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.QuanLyNoiQuy.resources
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\Control.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\Control.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\ThuVien.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\bin\Debug\ThuVien.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\GUI\obj\Debug\GUI.QuanLyTrangThietBi.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\GUI.exe.config
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\GUI.exe
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\GUI.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\Guna.UI2.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\ThuVien.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\Control.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\ThuVien.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\Control.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.Form1.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.FormMain.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.Login.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.csproj.Up2Date
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.exe
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.ThongTinLuuTru.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\BLL.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\DTO.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\DTO.dll.config
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\DAL.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\DAL.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.DangKyLuuTru.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.ThongTinSinhVien.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\BLL.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\DTO.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.QL_Phong.resources

@@ -4,17 +4,10 @@ D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.csproj.Asse
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.dll
 D:\HocKi 7\DoAnChuyenNganh\DoAn_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\DTO.dll.config
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\DTO.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\DTO.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\ThuVien1.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\BLL.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\DAL.dll
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\ThuVien1.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\BLL.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\bin\Debug\DAL.pdb
-D:\HocKi 7\DoAnChuyenNganh\DACN_QL_KTX\DoAn_QL_KTX\DTO\obj\Debug\DTO.csproj.Up2Date
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DTO\bin\Debug\DTO.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DTO\bin\Debug\DTO.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DTO\obj\Debug\DTO.dll
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DTO\obj\Debug\DTO.pdb
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\DTO\bin\Debug\DTO.dll.config
