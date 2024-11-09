@@ -79,6 +79,12 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ChiTietPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ChiTietPhong.Designer.cs">
+      <DependentUpon>Frm_ChiTietPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChiTietPhong.resx">
+      <DependentUpon>Frm_ChiTietPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -170,6 +179,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\iconKTX.jpg" />
+    <Content Include="Resources\oanh6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

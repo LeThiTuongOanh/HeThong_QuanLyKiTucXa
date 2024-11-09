@@ -45,3 +45,4 @@ D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.ThongT
 D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\BLL.dll
 D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\bin\Debug\DTO.dll
 D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.QL_Phong.resources
+D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\obj\Debug\GUI.Frm_ChiTietPhong.resources

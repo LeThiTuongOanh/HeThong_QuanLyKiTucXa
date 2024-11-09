@@ -70,15 +70,7 @@
             this.txt_ChiChuaSo4 = new Control.txt_ChiChuaSo();
             this.btn_daCoHoSo = new System.Windows.Forms.Button();
             this.btn_DangKi = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.cbo_giuong = new System.Windows.Forms.ComboBox();
-            this.txt_lydo = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.cbo_phong = new System.Windows.Forms.ComboBox();
@@ -449,15 +441,7 @@
             this.groupBox2.Controls.Add(this.txt_ChiChuaSo4);
             this.groupBox2.Controls.Add(this.btn_daCoHoSo);
             this.groupBox2.Controls.Add(this.btn_DangKi);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Controls.Add(this.label23);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.textBox13);
-            this.groupBox2.Controls.Add(this.label22);
-            this.groupBox2.Controls.Add(this.label21);
             this.groupBox2.Controls.Add(this.cbo_giuong);
-            this.groupBox2.Controls.Add(this.txt_lydo);
             this.groupBox2.Controls.Add(this.label20);
             this.groupBox2.Controls.Add(this.label19);
             this.groupBox2.Controls.Add(this.cbo_phong);
@@ -473,7 +457,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.RoyalBlue;
             this.groupBox2.Location = new System.Drawing.Point(18, 27);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(643, 654);
+            this.groupBox2.Size = new System.Drawing.Size(643, 513);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Đăng Ký Ký Túc Xá";
@@ -530,75 +514,12 @@
             // 
             this.btn_DangKi.BackColor = System.Drawing.Color.Firebrick;
             this.btn_DangKi.ForeColor = System.Drawing.Color.White;
-            this.btn_DangKi.Location = new System.Drawing.Point(222, 576);
+            this.btn_DangKi.Location = new System.Drawing.Point(367, 424);
             this.btn_DangKi.Name = "btn_DangKi";
             this.btn_DangKi.Size = new System.Drawing.Size(212, 39);
             this.btn_DangKi.TabIndex = 46;
             this.btn_DangKi.Text = "Đăng Kí";
             this.btn_DangKi.UseVisualStyleBackColor = false;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(48, 534);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(531, 24);
-            this.checkBox1.TabIndex = 45;
-            this.checkBox1.Text = "Tôi hoàn chịu trách nhiệm về tính chính xác của thông tin trên ";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(240, 483);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(339, 26);
-            this.textBox14.TabIndex = 44;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label23.Location = new System.Drawing.Point(33, 483);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(163, 20);
-            this.label23.TabIndex = 43;
-            this.label23.Text = "Nhập Mã Xác Nhận";
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(477, 430);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(102, 39);
-            this.button3.TabIndex = 28;
-            this.button3.Text = "Refesh";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(240, 436);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(194, 26);
-            this.textBox13.TabIndex = 42;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label22.Location = new System.Drawing.Point(33, 439);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(121, 20);
-            this.label22.TabIndex = 41;
-            this.label22.Text = "Mã Xác Nhận:";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label21.Location = new System.Drawing.Point(33, 395);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(128, 20);
-            this.label21.TabIndex = 40;
-            this.label21.Text = "Lý Do Đăng Kí:";
             // 
             // cbo_giuong
             // 
@@ -607,13 +528,6 @@
             this.cbo_giuong.Name = "cbo_giuong";
             this.cbo_giuong.Size = new System.Drawing.Size(339, 28);
             this.cbo_giuong.TabIndex = 39;
-            // 
-            // txt_lydo
-            // 
-            this.txt_lydo.Location = new System.Drawing.Point(240, 389);
-            this.txt_lydo.Name = "txt_lydo";
-            this.txt_lydo.Size = new System.Drawing.Size(339, 26);
-            this.txt_lydo.TabIndex = 38;
             // 
             // label20
             // 
@@ -724,7 +638,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "DangKyLuuTru";
-            this.Text = "DangKyLuuTru";
+            this.Text = "s";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -768,15 +682,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btn_DangKi;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.ComboBox cbo_giuong;
-        private System.Windows.Forms.TextBox txt_lydo;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox cbo_phong;

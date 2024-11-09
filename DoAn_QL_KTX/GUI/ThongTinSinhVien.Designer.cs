@@ -32,11 +32,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.check_truongPhong = new System.Windows.Forms.CheckBox();
-            this.txt_CCCD = new Control.txt_ChiChuaSo();
-            this.txt_Email = new Control.txt_email();
-            this.txt_SDT = new Control.txt_SDT();
-            this.txt_MaSoSinhVien = new Control.txt_ChiChuaSo();
-            this.txt_HoTen = new Control.txt_Text();
             this.txt_GhiChu = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -61,6 +56,14 @@
             this.picture_CCCDSau = new System.Windows.Forms.PictureBox();
             this.txt_CCCDSau = new System.Windows.Forms.TextBox();
             this.txt_CCCCTruoc = new System.Windows.Forms.TextBox();
+            this.txt_TimMSSV = new System.Windows.Forms.TextBox();
+            this.btn_TimKiem = new System.Windows.Forms.Button();
+            this.txt_CCCD = new Control.txt_ChiChuaSo();
+            this.txt_Email = new Control.txt_email();
+            this.txt_SDT = new Control.txt_SDT();
+            this.txt_MaSoSinhVien = new Control.txt_ChiChuaSo();
+            this.txt_HoTen = new Control.txt_Text();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datagridview_SinhVien)).BeginInit();
@@ -110,41 +113,6 @@
             this.check_truongPhong.Text = "Trưởng phòng";
             this.check_truongPhong.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.check_truongPhong.UseVisualStyleBackColor = true;
-            // 
-            // txt_CCCD
-            // 
-            this.txt_CCCD.Location = new System.Drawing.Point(892, 307);
-            this.txt_CCCD.Name = "txt_CCCD";
-            this.txt_CCCD.Size = new System.Drawing.Size(223, 26);
-            this.txt_CCCD.TabIndex = 59;
-            // 
-            // txt_Email
-            // 
-            this.txt_Email.Location = new System.Drawing.Point(892, 253);
-            this.txt_Email.Name = "txt_Email";
-            this.txt_Email.Size = new System.Drawing.Size(223, 26);
-            this.txt_Email.TabIndex = 58;
-            // 
-            // txt_SDT
-            // 
-            this.txt_SDT.Location = new System.Drawing.Point(892, 203);
-            this.txt_SDT.Name = "txt_SDT";
-            this.txt_SDT.Size = new System.Drawing.Size(223, 26);
-            this.txt_SDT.TabIndex = 57;
-            // 
-            // txt_MaSoSinhVien
-            // 
-            this.txt_MaSoSinhVien.Location = new System.Drawing.Point(402, 154);
-            this.txt_MaSoSinhVien.Name = "txt_MaSoSinhVien";
-            this.txt_MaSoSinhVien.Size = new System.Drawing.Size(223, 26);
-            this.txt_MaSoSinhVien.TabIndex = 56;
-            // 
-            // txt_HoTen
-            // 
-            this.txt_HoTen.Location = new System.Drawing.Point(402, 200);
-            this.txt_HoTen.Name = "txt_HoTen";
-            this.txt_HoTen.Size = new System.Drawing.Size(223, 26);
-            this.txt_HoTen.TabIndex = 55;
             // 
             // txt_GhiChu
             // 
@@ -366,11 +334,78 @@
             this.txt_CCCCTruoc.Size = new System.Drawing.Size(223, 26);
             this.txt_CCCCTruoc.TabIndex = 65;
             // 
+            // txt_TimMSSV
+            // 
+            this.txt_TimMSSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_TimMSSV.Location = new System.Drawing.Point(107, 757);
+            this.txt_TimMSSV.Name = "txt_TimMSSV";
+            this.txt_TimMSSV.Size = new System.Drawing.Size(223, 28);
+            this.txt_TimMSSV.TabIndex = 70;
+            // 
+            // btn_TimKiem
+            // 
+            this.btn_TimKiem.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_TimKiem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_TimKiem.Location = new System.Drawing.Point(371, 753);
+            this.btn_TimKiem.Name = "btn_TimKiem";
+            this.btn_TimKiem.Size = new System.Drawing.Size(152, 38);
+            this.btn_TimKiem.TabIndex = 71;
+            this.btn_TimKiem.Text = "Tìm Kiếm";
+            this.btn_TimKiem.UseVisualStyleBackColor = false;
+            // 
+            // txt_CCCD
+            // 
+            this.txt_CCCD.Location = new System.Drawing.Point(892, 307);
+            this.txt_CCCD.Name = "txt_CCCD";
+            this.txt_CCCD.Size = new System.Drawing.Size(223, 26);
+            this.txt_CCCD.TabIndex = 59;
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.Location = new System.Drawing.Point(892, 253);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(223, 26);
+            this.txt_Email.TabIndex = 58;
+            // 
+            // txt_SDT
+            // 
+            this.txt_SDT.Location = new System.Drawing.Point(892, 203);
+            this.txt_SDT.Name = "txt_SDT";
+            this.txt_SDT.Size = new System.Drawing.Size(223, 26);
+            this.txt_SDT.TabIndex = 57;
+            // 
+            // txt_MaSoSinhVien
+            // 
+            this.txt_MaSoSinhVien.Location = new System.Drawing.Point(402, 154);
+            this.txt_MaSoSinhVien.Name = "txt_MaSoSinhVien";
+            this.txt_MaSoSinhVien.Size = new System.Drawing.Size(223, 26);
+            this.txt_MaSoSinhVien.TabIndex = 56;
+            // 
+            // txt_HoTen
+            // 
+            this.txt_HoTen.Location = new System.Drawing.Point(402, 200);
+            this.txt_HoTen.Name = "txt_HoTen";
+            this.txt_HoTen.Size = new System.Drawing.Size(223, 26);
+            this.txt_HoTen.TabIndex = 55;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label14.Location = new System.Drawing.Point(38, 762);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(55, 20);
+            this.label14.TabIndex = 72;
+            this.label14.Text = "MSSV";
+            // 
             // ThongTinSinhVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1154, 857);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.btn_TimKiem);
+            this.Controls.Add(this.txt_TimMSSV);
             this.Controls.Add(this.picture_CCCDSau);
             this.Controls.Add(this.Picture_CCCDTruoc);
             this.Controls.Add(this.btn_CapNhatSinhVien);
@@ -451,5 +486,8 @@
         private System.Windows.Forms.PictureBox picture_CCCDSau;
         private System.Windows.Forms.TextBox txt_CCCDSau;
         private System.Windows.Forms.TextBox txt_CCCCTruoc;
+        private System.Windows.Forms.TextBox txt_TimMSSV;
+        private System.Windows.Forms.Button btn_TimKiem;
+        private System.Windows.Forms.Label label14;
     }
 }

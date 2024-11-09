@@ -8,39 +8,176 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL;
-
+using DTO;
 namespace GUI
 {
     public partial class ThongTinLuuTru : Form
     {
-        QL_LuuTru xuly = new QL_LuuTru();
+        BLL_QL_LuuTru xuly = new BLL_QL_LuuTru();
 
         public ThongTinLuuTru()
         {
             InitializeComponent();
 
             dataGridView1.EditMode = DataGridViewEditMode.EditOnEnter;
-            dataGridView1.CellEndEdit += DataGridView1_CellEndEdit;
-            dataGridView1.CellClick += DataGridView1_CellClick;
+           dataGridView1.CellEndEdit += DataGridView1_CellEndEdit;
+         //   dataGridView1.CellValueChanged += DataGridView1_CellValueChanged;
             this.Load += ThongTinLuuTru_Load;
+            Load_ComboMaPhong();
+            btn_Loc.Click += Btn_Loc_Click;
+            btn_TimKiem.Click += Btn_TimKiem_Click;
+            //    cbo_maPhong.SelectedIndexChanged += Cbo_maPhong_SelectedIndexChanged;
+        }
+
+        private void DataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+           
+        }
+
+        private void Btn_TimKiem_Click(object sender, EventArgs e)
+        {
+            string maSV = txt_TimKiemTheo.Text.Trim();
+            if (string.IsNullOrEmpty(maSV))
+            {
+                MessageBox.Show("Vui lòng nhập mã số sinh viên cần tìm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            var sinhvien = xuly.GetTheoMaSV(maSV);
+
+
+            if (sinhvien != null)
+            {
+                dataGridView1.DataSource = new List<DangKyPhong> { sinhvien };
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy sinh viên với mã số này.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dataGridView1.DataSource = xuly.GetDangKyPhong();
+
+            }
+        }
+
+        private void Cbo_maPhong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbo_maPhong.SelectedValue != null)
+            {
+                string selectedMaPhong = cbo_maPhong.SelectedValue.ToString();
+
+                // Gọi phương thức lấy dữ liệu theo mã phòng đã chọn và hiển thị trong DataGridView
+                dataGridView1.DataSource = xuly.GetDangKyPhongTheoMaPhong(selectedMaPhong);
+            }
+        }
+
+        private void Btn_Loc_Click(object sender, EventArgs e)
+        {
+            if (cbo_maPhong.SelectedValue != null)
+            {
+                string selectedMaPhong = cbo_maPhong.SelectedValue.ToString();
+
+                // Lấy dữ liệu theo mã phòng đã chọn và hiển thị trong DataGridView
+                dataGridView1.DataSource = xuly.GetDangKyPhongTheoMaPhong(selectedMaPhong);
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn mã phòng để lọc.");
+            }
         }
 
         private void DataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
-            if (dataGridView1.Rows[e.RowIndex].Cells["MaDangKyPhong"].Value != null) // Kiểm tra không null
+            if (dataGridView1.Rows[e.RowIndex].Cells["MaDangKyPhong"].Value != null)
             {
                 int maDangKyPhong = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["MaDangKyPhong"].Value.ToString());
-                string duLieuMoi = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
+                string duLieuMoi = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value?.ToString();
 
-                // Cập nhật dữ liệu trong cơ sở dữ liệu
-                bool updateSuccess = xuly.SuaPhieuDangKyPhong(maDangKyPhong, e.ColumnIndex, duLieuMoi);
-                if (updateSuccess)
+                if (string.IsNullOrEmpty(duLieuMoi))
                 {
-                    MessageBox.Show("Cập nhật thành công!");
+                    MessageBox.Show("Dữ liệu không thể để trống.");
+                    return;
                 }
-                else
+
+                bool isValid = true;
+                DateTime? ngayDK = (DateTime?)dataGridView1.Rows[e.RowIndex].Cells["NgayDK"].Value;
+                DateTime? ngayBD = (DateTime?)dataGridView1.Rows[e.RowIndex].Cells["NgayBD"].Value;
+                DateTime? ngayKT = (DateTime?)dataGridView1.Rows[e.RowIndex].Cells["NgayKT"].Value;
+
+                string columnName = dataGridView1.Columns[e.ColumnIndex].Name;
+
+                switch (columnName)
                 {
-                    MessageBox.Show("Cập nhật thất bại. Vui lòng thử lại.");
+                    case "NgayDK": // Ngày đăng ký
+                        if (DateTime.TryParse(duLieuMoi, out DateTime ngayDangKy))
+                        {
+                            if (ngayBD.HasValue && ngayDangKy >= ngayBD.Value)
+                            {
+                                isValid = false;
+                                MessageBox.Show("Ngày đăng ký phải trước ngày bắt đầu ở.");
+                            }
+                        }
+                        else
+                        {
+                            isValid = false;
+                            MessageBox.Show("Ngày đăng ký không hợp lệ.");
+                        }
+                        break;
+
+                    case "NgayBD": // Ngày bắt đầu
+                        if (DateTime.TryParse(duLieuMoi, out DateTime ngayBatDau))
+                        {
+                            if ((ngayDK.HasValue && ngayBatDau <= ngayDK.Value) ||
+                                (ngayKT.HasValue && ngayBatDau >= ngayKT.Value))
+                            {
+                                isValid = false;
+                                MessageBox.Show("Ngày bắt đầu phải sau ngày đăng ký và trước ngày kết thúc.");
+                            }
+                        }
+                        else
+                        {
+                            isValid = false;
+                            MessageBox.Show("Ngày bắt đầu không hợp lệ.");
+                        }
+                        break;
+
+                    case "NgayKT": // Ngày kết thúc
+                        if (DateTime.TryParse(duLieuMoi, out DateTime ngayKetThuc))
+                        {
+                            if (ngayBD.HasValue && ngayKetThuc <= ngayBD.Value)
+                            {
+                                isValid = false;
+                                MessageBox.Show("Ngày kết thúc phải sau ngày bắt đầu.");
+                            }
+                        }
+                        else
+                        {
+                            isValid = false;
+                            MessageBox.Show("Ngày kết thúc không hợp lệ.");
+                        }
+                        break;
+
+                    case "Giuong": // Giường
+                        if (!int.TryParse(duLieuMoi, out _))
+                        {
+                            isValid = false;
+                            MessageBox.Show("Giường phải là số nguyên hợp lệ.");
+                        }
+                        break;
+
+                    case "Tang": // Tầng
+                        if (!int.TryParse(duLieuMoi, out _))
+                        {
+                            isValid = false;
+                            MessageBox.Show("Tầng phải là số nguyên hợp lệ.");
+                        }
+                        break;
+
+                    default:
+                        break;
+                }
+
+                if (isValid)
+                {
+                    bool updateSuccess = xuly.SuaPhieuDangKyPhong(maDangKyPhong, columnName, duLieuMoi);
+                    MessageBox.Show(updateSuccess ? "Cập nhật thành công!" : "Cập nhật thất bại. Vui lòng thử lại.");
                 }
             }
             else
@@ -48,6 +185,7 @@ namespace GUI
                 MessageBox.Show("Mã ĐK phòng không hợp lệ.");
             }
         }
+
 
         private void ThongTinLuuTru_Load(object sender, EventArgs e)
         {
@@ -65,6 +203,12 @@ namespace GUI
             dataGridView1.Columns["NgayKT"].HeaderText = "Ngày KT ở";
             dataGridView1.Columns["Giuong"].HeaderText = "Giường";
             dataGridView1.Columns["Tang"].HeaderText = "Tầng";
+            dataGridView1.Columns["NguyenVong1"].Visible = false;
+            dataGridView1.Columns["NguyenVong2"].Visible = false;
+            dataGridView1.Columns["TrangThai"].Visible = false;
+            dataGridView1.Columns["Phong"].Visible = false;
+            dataGridView1.Columns["SinhVien"].Visible = false;
+            dataGridView1.Columns["HinhNhanDien"].Visible = false;
 
             // Thêm cột "Sửa" nếu chưa tồn tại
             if (!dataGridView1.Columns.Contains("btnEdit"))
@@ -99,7 +243,7 @@ namespace GUI
 
         private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) // Đảm bảo không xử lý header row
+            if (e.RowIndex >= 0 && e.RowIndex < dataGridView1.Rows.Count)
             {
                 if (e.ColumnIndex == dataGridView1.Columns["btnEdit"].Index)
                 {
@@ -127,7 +271,20 @@ namespace GUI
             }
         }
 
+
         private void ThongTinLuuTru_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Load_ComboMaPhong()
+        {
+            cbo_maPhong.DataSource=xuly.GetDangKyPhong();
+            cbo_maPhong.ValueMember = "MaPhong";
+            cbo_maPhong.DisplayMember= "MaPhong";
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

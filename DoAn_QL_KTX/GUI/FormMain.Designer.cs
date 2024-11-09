@@ -49,7 +49,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel_Main = new System.Windows.Forms.Panel();
             this.quanLyPhong1 = new ThuVien.QuanLyPhong();
-            this.dangKyLuuTru1 = new ThuVien.DangKyLuuTru();
             this.yeuCauSuaChua1 = new ThuVien.YeuCauSuaChua();
             this.panel4 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -296,7 +295,6 @@
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.panel_Main);
             this.panel3.Controls.Add(this.quanLyPhong1);
-            this.panel3.Controls.Add(this.dangKyLuuTru1);
             this.panel3.Controls.Add(this.yeuCauSuaChua1);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -307,9 +305,9 @@
             // 
             // panel_Main
             // 
-            this.panel_Main.Location = new System.Drawing.Point(3, 128);
+            this.panel_Main.Location = new System.Drawing.Point(0, 119);
             this.panel_Main.Name = "panel_Main";
-            this.panel_Main.Size = new System.Drawing.Size(1239, 1430);
+            this.panel_Main.Size = new System.Drawing.Size(1239, 1433);
             this.panel_Main.TabIndex = 5;
             // 
             // quanLyPhong1
@@ -318,14 +316,6 @@
             this.quanLyPhong1.Name = "quanLyPhong1";
             this.quanLyPhong1.Size = new System.Drawing.Size(1244, 2000);
             this.quanLyPhong1.TabIndex = 4;
-            // 
-            // dangKyLuuTru1
-            // 
-            this.dangKyLuuTru1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dangKyLuuTru1.Location = new System.Drawing.Point(6, 125);
-            this.dangKyLuuTru1.Name = "dangKyLuuTru1";
-            this.dangKyLuuTru1.Size = new System.Drawing.Size(1239, 1106);
-            this.dangKyLuuTru1.TabIndex = 3;
             // 
             // yeuCauSuaChua1
             // 
@@ -464,7 +454,7 @@
         private System.Windows.Forms.ToolStripMenuItem tinTứcToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bộMáyTổChứcToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem liênHệToolStripMenuItem;
-        private ThuVien.DangKyLuuTru dangKyLuuTru1;
+   //     private ThuVien.DangKyLuuTru dangKyLuuTru1;
         private ThuVien.QuanLyPhong quanLyPhong1;
         private System.Windows.Forms.Panel panel_DichVu_submenu;
         private System.Windows.Forms.Button button2;

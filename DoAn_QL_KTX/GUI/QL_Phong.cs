@@ -15,11 +15,15 @@ namespace GUI
     public partial class QL_Phong : Form
     {
         BLL_QL_Phong bll_phong= new BLL_QL_Phong();
-        public QL_Phong()
+        private FormMain _mainForm; // Biến để lưu tham chiếu tới FormMain
+                                    //  private ThongTinLuuTru thongTinLuuTruForm;
+        public QL_Phong(FormMain mainForm)
         {
             InitializeComponent();
+            _mainForm = mainForm; // Lưu tham chiếu
             this.Load += QL_Phong_Load;
-           
+
+
         }
 
         private void QL_Phong_Load(object sender, EventArgs e)
@@ -70,27 +74,24 @@ namespace GUI
 
         private void TaoDanhSachButtonPhong()
         {
-           
             List<string> danhSachMaPhong = bll_phong.DS_Phong();
 
-            int x = 140; 
-            int y = 96; 
-            int buttonWidth = 70; 
+            int buttonWidth = 70;
             int buttonHeight = 70;
             int margin = 20;
-
-            //  Image roomImage1 = Image.FromFile(@"D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\Resources\iconKTX.jpg");
-
-            Image roomImage = GUI.Properties.Resources.user;
+            int startX = 190;
+            int x = startX;
+            int y = 96;
+            Image roomImage = Image.FromFile(@"D:\DoAnChuyenNganh\QLKTX\DoAn_QuanLyKyTucXa\DoAn_QL_KTX\GUI\Resources\iconKTX.jpg");
+       //     Image roomImage = GUI.Properties.Resources.user;
 
             foreach (string maPhong in danhSachMaPhong)
             {
-
                 // Tạo Label hiển thị mã phòng phía trên button
                 Label lblMaPhong = new Label
                 {
-                    Text =maPhong,
-                    Location = new Point(x, y - 20), // Đặt vị trí trên button
+                    Text = maPhong,
+                    Location = new Point(x, y - 20),
                     Size = new Size(buttonWidth, 20),
                     TextAlign = ContentAlignment.MiddleCenter
                 };
@@ -98,32 +99,26 @@ namespace GUI
                 // Tạo button cho mỗi phòng
                 Button btnPhong = new Button
                 {
-                   // Text = maPhong,
                     Image = roomImage,
                     ImageAlign = ContentAlignment.MiddleCenter,
                     TextAlign = ContentAlignment.TopCenter,
                     Size = new Size(buttonWidth, buttonHeight),
                     Location = new Point(x, y)
                 };
-
+                btnPhong.Click += (sender, e) => BtnPhong_Click(sender, e, maPhong);
+                 
                 // Lấy số sinh viên hiện tại trong phòng
                 int soSinhVienHienTai = bll_phong.LaySoSinhVien(maPhong);
-
-                // Giả định số sinh viên tối đa là 10 (sử dụng giá trị thực tế nếu có)
                 int soSinhVienToiDa = 10;
 
                 // Tạo label hiển thị số sinh viên dưới mỗi button
                 Label lblSoSinhVien = new Label
                 {
                     Text = $"{soSinhVienHienTai}/{soSinhVienToiDa} SV",
-                    Location = new Point(x, y + buttonHeight + 5), // Đặt ngay dưới button
+                    Location = new Point(x, y + buttonHeight + 5),
                     Size = new Size(buttonWidth, 20),
                     TextAlign = ContentAlignment.MiddleCenter
                 };
-
-
-                //// Gán sự kiện click cho button
-                //btnPhong.Click += (sender, e) => BtnPhong_Click(sender, e, maPhong);
 
                 this.Controls.Add(lblMaPhong);
                 this.Controls.Add(btnPhong);
@@ -131,20 +126,26 @@ namespace GUI
 
                 // Cập nhật vị trí X, Y cho button tiếp theo
                 x += buttonWidth + margin;
-                if (x + buttonWidth > this.ClientSize.Width) // Khi hết hàng, xuống dòng mới
+
+                // Kiểm tra nếu vượt quá chiều rộng của form, xuống dòng mới và căn giữa
+                if (x + buttonWidth > this.ClientSize.Width)
                 {
-                    x = 10;
-                    y += buttonHeight + margin+ 45;
+                    x = startX; // Căn đầu dòng theo giá trị startX
+                    y += buttonHeight + margin + 45;
                 }
             }
         }
 
-
-        // Xử lý khi button phòng được click
         private void BtnPhong_Click(object sender, EventArgs e, string maPhong)
         {
-            MessageBox.Show($"Bạn đã chọn phòng: {maPhong}", "Thông tin phòng");
+            // Khởi tạo đối tượng Frm_ChiTietPhong và truyền maPhong vào constructor
+            //Frm_ChiTietPhong frmChiTietPhong = new Frm_ChiTietPhong(maPhong);
+
+            //// Hiển thị form
+            //frmChiTietPhong.Show();
+            _mainForm.OpenChildForm(new Frm_ChiTietPhong(maPhong));
         }
+
 
         private void label2_Click(object sender, EventArgs e)
         {

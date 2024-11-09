@@ -20,6 +20,11 @@ namespace DAL
            return ktx.SinhViens.ToList();
         }
 
+        public SinhVien GetByMa(string maSV)
+        {
+            return ktx.SinhViens.FirstOrDefault(sv => sv.MaSinhVien == maSV);
+        }
+
         public bool ThemSinhVien(SinhVien sinhVien)
         {
             try

@@ -15,10 +15,11 @@ namespace GUI
 {
     public partial class DangKyLuuTru : Form
     {
-        QL_LuuTru bllQuanLyLuuTru= new QL_LuuTru();
+        BLL_QL_LuuTru bllQuanLyLuuTru= new BLL_QL_LuuTru();
         private PictureBox selectedPictureBox;
 
         private FormMain _mainForm; // Biến để lưu tham chiếu tới FormMain
+      //  private ThongTinLuuTru thongTinLuuTruForm;
 
         public DangKyLuuTru(FormMain mainForm)
         {
@@ -29,17 +30,15 @@ namespace GUI
             LoadCombo_Giuong();
             Load_LoaiPhong();
             btn_DangKi.Click += Btn_DangKi_Click;
-            btn_ChonFile.Click += Btn_ChonFileNhanDien_Click;
-            //     btn_ChonFileCCCDTruoc.Click += Btn_ChonFileCCCDTruoc_Click;
-            //    btn_ChonFileCCCDSau.Click += Btn_ChonFileCCCDSau_Click;
-
             btn_ChonFile.Click += Btn_ChonFile_Click;
 
             picture_CCCDSau.Click += Picture_Click;
             picture_CCCDTruoc.Click += Picture_Click;
             picture_HinhDaiDien.Click += Picture_Click;
-        }
 
+           
+        }
+       
         private void Btn_ChonFile_Click(object sender, EventArgs e)
         {
             if (selectedPictureBox == null)
@@ -79,75 +78,6 @@ namespace GUI
         private string hinhCCCDTruocPath; 
         private string hinhCCCDSauPath;
 
-        private void Btn_ChonFileCCCDSau_Click(object sender, EventArgs e)
-        {
-            //using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            //{
-            //    openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
-            //    openFileDialog.Title = "Chọn hình ảnh nhận diện";
-
-            //    if (openFileDialog.ShowDialog() == DialogResult.OK)
-            //    {
-            //        // Lưu đường dẫn hình ảnh đã chọn
-            //        hinhCCCDSauPath = openFileDialog.FileName;
-
-            //        // Tạo một hình ảnh mới từ đường dẫn đã chọn
-            //        using (Image img = Image.FromFile(hinhNhanDienPath))
-            //        {
-            //            // Tạo một Bitmap mới với kích thước 168x209 và vẽ hình ảnh vào Bitmap
-            //            Bitmap resizedImage = new Bitmap(img, new Size(115, 66));
-            //            picture_CCCDSau.Image = resizedImage; // Cập nhật hình trong PictureBox
-            //        }
-            //    }
-            //}
-            
-        }
-
-        private void Btn_ChonFileCCCDTruoc_Click(object sender, EventArgs e)
-        {
-            //using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            //{
-            //    openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
-            //    openFileDialog.Title = "Chọn hình ảnh nhận diện";
-
-            //    if (openFileDialog.ShowDialog() == DialogResult.OK)
-            //    {
-            //        // Lưu đường dẫn hình ảnh đã chọn
-            //        CCCDTruocPath = openFileDialog.FileName;
-
-            //        // Tạo một hình ảnh mới từ đường dẫn đã chọn
-            //        using (Image img = Image.FromFile(hinhNhanDienPath))
-            //        {
-            //            // Tạo một Bitmap mới với kích thước 168x209 và vẽ hình ảnh vào Bitmap
-            //            Bitmap resizedImage = new Bitmap(img, new Size(115, 66));
-            //            picture_CCCDTruoc.Image = resizedImage; // Cập nhật hình trong PictureBox
-            //        }
-            //    }
-            //}
-        }
-
-        private void Btn_ChonFileNhanDien_Click(object sender, EventArgs e)
-        {
-            //using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            //{
-            //    openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
-            //    openFileDialog.Title = "Chọn hình ảnh nhận diện";
-
-            //    if (openFileDialog.ShowDialog() == DialogResult.OK)
-            //    {
-            //        // Lưu đường dẫn hình ảnh đã chọn
-            //        hinhNhanDienPath = openFileDialog.FileName;
-
-            //        // Tạo một hình ảnh mới từ đường dẫn đã chọn
-            //        using (Image img = Image.FromFile(hinhNhanDienPath))
-            //        {
-            //            // Tạo một Bitmap mới với kích thước 168x209 và vẽ hình ảnh vào Bitmap
-            //            Bitmap resizedImage = new Bitmap(img, new Size(115, 66));
-            //            picture_HinhDaiDien.Image = resizedImage; // Cập nhật hình trong PictureBox
-            //        }
-            //    }
-            //}
-        }
 
         private void Btn_DangKi_Click(object sender, EventArgs e)
         {
@@ -194,7 +124,9 @@ namespace GUI
 
         private void Btn_daCoHoSo_Click(object sender, EventArgs e)
         {
+            _mainForm.LoadThongTinLuuTruForm();
             _mainForm.OpenChildForm(new ThongTinLuuTru()); // Gọi OpenChildForm để mở ThongTinLuuTru
+       
         }
 
         public void LoadCombo_Phong()
@@ -217,6 +149,7 @@ namespace GUI
             cbo_LoaiPhong.DataSource = bllQuanLyLuuTru.GetLoais();
             cbo_LoaiPhong.ValueMember = "MaLoaiPhong";
             cbo_LoaiPhong.DisplayMember = "TenLoaiPhong";
+
         }
 
     }

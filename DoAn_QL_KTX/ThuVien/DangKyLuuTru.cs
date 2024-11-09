@@ -13,7 +13,7 @@ namespace ThuVien
 {
     public partial class DangKyLuuTru : UserControl
     {
-        QL_LuuTru xl = new QL_LuuTru();
+        BLL_QL_LuuTru xl = new BLL_QL_LuuTru();
         // Khai báo sự kiện
         public event EventHandler DaCoHoSo_Clicked;
 

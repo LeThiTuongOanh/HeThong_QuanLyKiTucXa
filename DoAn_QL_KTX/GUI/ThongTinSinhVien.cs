@@ -37,6 +37,30 @@ namespace GUI
             picture_CCCDSau.Click += PictureBox_Click;
 
             btn_Chonfile.Click += Btn_Chonfile_Click;
+            btn_TimKiem.Click += Btn_TimKiem_Click;
+        }
+
+        private void Btn_TimKiem_Click(object sender, EventArgs e)
+        {
+           string maSV=txt_TimMSSV.Text.Trim();
+            if(string.IsNullOrEmpty(maSV))
+            {
+                MessageBox.Show("Vui lòng nhập mã số sinh viên cần tìm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }    
+            var sinhvien=bllSinhVien.GetSinhVienByMa(maSV);
+
+
+            if (sinhvien != null)
+            {
+                datagridview_SinhVien.DataSource = new List<SinhVien> { sinhvien };
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy sinh viên với mã số này.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                datagridview_SinhVien.DataSource = bllSinhVien.GetAllSinhViens();
+
+            }
         }
 
         private void PictureBox_Click(object sender, EventArgs e)
@@ -139,12 +163,12 @@ namespace GUI
                 // Lấy thông tin sinh viên từ hàng đã chọn
                 var sinhVien = (SinhVien)datagridview_SinhVien.Rows[e.RowIndex].DataBoundItem;
 
-                // Cập nhật các trường nhập liệu
-                txt_MaSoSinhVien.Text = sinhVien.MaSinhVien; // Giả sử bạn có trường nhập liệu cho mã sinh viên
+              
+                txt_MaSoSinhVien.Text = sinhVien.MaSinhVien;
                 txt_HoTen.Text = sinhVien.HoTen;
                 txt_CCCD.Text = sinhVien.CCCD;
-                txt_SDT.Text = sinhVien.SDT; // Đảm bảo rằng bạn đã thêm trường số điện thoại vào mô hình
-                picker_NgaySinh.Value = sinhVien.NgaySinh; // Ngày sinh
+                txt_SDT.Text = sinhVien.SDT; 
+                picker_NgaySinh.Value = sinhVien.NgaySinh; 
                 txt_GioiTinh.Text = sinhVien.GioiTinh;
                 txt_Email.Text = sinhVien.Email;
                 txt_HoKhauThuongTru.Text = sinhVien.HoKhauThuongTru;
@@ -189,6 +213,7 @@ namespace GUI
             //
             }
         }
+     
 
         private void LoadImageToPictureBox(string imageName, PictureBox pictureBox)
         {
@@ -212,7 +237,9 @@ namespace GUI
                 {
                     Bitmap resizedImage = new Bitmap(Image.FromFile(imagePath), new Size(168, 209));
                     pictureBox.Image = resizedImage;
+                    pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
                     isImageErrorShown = false; // Reset lại flag nếu hình ảnh hợp lệ
+
                 }
                 else
                 {
@@ -238,8 +265,6 @@ namespace GUI
 
         private void ThongTinSinhVien_Load(object sender, EventArgs e)
         {
-            
-
             datagridview_SinhVien.DataSource=bllSinhVien.GetAllSinhViens();
           
             datagridview_SinhVien.Columns["MaSinhVien"].HeaderText = "Mã sinh viên";
@@ -253,12 +278,11 @@ namespace GUI
             datagridview_SinhVien.Columns["NoiSinh"].HeaderText = "Nơi sinh";
             datagridview_SinhVien.Columns["GhiChu"].HeaderText = "Ghi chú";
             datagridview_SinhVien.Columns["TruongPhong"].HeaderText = "Trưởng phòng";
-            datagridview_SinhVien.Columns["HinhCCCDTruoc"].HeaderText = "Hình CCCD trước"; // Tiêu đề cho hình CCCD trước
-            datagridview_SinhVien.Columns["HinhCCCDSau"].HeaderText = "Hình CCCD sau"; // Tiêu đề cho hình CCCD sau
+            datagridview_SinhVien.Columns["HinhCCCDTruoc"].HeaderText = "Hình CCCD trước";
+            datagridview_SinhVien.Columns["HinhCCCDSau"].HeaderText = "Hình CCCD sau"; 
             datagridview_SinhVien.Columns["HinhNhanDien"].HeaderText = "Hình nhận diện";
 
         }
-
        
     }
 }

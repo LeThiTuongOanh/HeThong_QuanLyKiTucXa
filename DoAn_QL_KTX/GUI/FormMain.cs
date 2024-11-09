@@ -12,17 +12,13 @@ namespace GUI
 {
     public partial class FormMain : Form
     {
+        private ThongTinLuuTru thongTinLuuTruForm;
+        private Form currentFormChild;
         public FormMain()
         {
             InitializeComponent();
-         
-            dangKyLuuTru1.DaCoHoSo_Clicked += DangKyLuuTru1_DaCoHoSo_Clicked;
-
-            // Đặt dangKyLuuTru1 ở vị trí mong muốn nếu cần
-           
-
         }
-        private Form currentFormChild;
+      
         public void OpenChildForm(Form child)
         {
             if(currentFormChild !=null)
@@ -37,11 +33,33 @@ namespace GUI
             panel_Main.Controls.Add(child);
             panel_Main.Tag=child;
             child.BringToFront();
-            dangKyLuuTru1.Visible = false;
+     //       dangKyLuuTru1.Visible = false;
           // dangKyLuuTru1.SendToBack();
             child.Show();
 
         }
+
+        public void LoadThongTinLuuTruForm()
+        {
+            // Kiểm tra nếu form đã tồn tại, giải phóng nó trước khi tạo form mới
+            if (thongTinLuuTruForm != null)
+            {
+                thongTinLuuTruForm.Close();
+                thongTinLuuTruForm.Dispose();
+            }
+
+            // Tạo instance mới của ThongTinLuuTru
+            thongTinLuuTruForm = new ThongTinLuuTru();
+            thongTinLuuTruForm.TopLevel = false; // Đặt TopLevel = false để hiển thị bên trong panel
+            thongTinLuuTruForm.FormBorderStyle = FormBorderStyle.None; // Loại bỏ viền
+            thongTinLuuTruForm.Dock = DockStyle.Fill; // Điền đầy trong panel
+
+            // Thêm form vào panelContainer và hiển thị
+            panel_Main.Controls.Clear(); // Xóa control cũ nếu có
+            panel_Main.Controls.Add(thongTinLuuTruForm);
+            thongTinLuuTruForm.Show();
+        }
+
         private void DangKyLuuTru1_DaCoHoSo_Clicked(object sender, EventArgs e)
         {
            
@@ -92,8 +110,9 @@ namespace GUI
         {
             quanLyPhong1.Visible = true;
             yeuCauSuaChua1.Visible = false;
-            dangKyLuuTru1.Visible = false;
+            //dangKyLuuTru1.Visible = false;
             hideSubmenu();
+            OpenChildForm(new QL_Phong(this));
         }
 
         private void btn_SinhVien_submenu_Click(object sender, EventArgs e)
@@ -105,13 +124,13 @@ namespace GUI
         {
            quanLyPhong1.Visible = false;
             yeuCauSuaChua1.Visible = true;
-            dangKyLuuTru1.Visible = false;
+       //     dangKyLuuTru1.Visible = false;
             hideSubmenu();
         }
         
         private void btn_DK_luutru_Click(object sender, EventArgs e)
         {
-            dangKyLuuTru1.Visible = true;
+     //       dangKyLuuTru1.Visible = true;
             quanLyPhong1.Visible = false;
             yeuCauSuaChua1.Visible = false;
             //  hideSubmenu();

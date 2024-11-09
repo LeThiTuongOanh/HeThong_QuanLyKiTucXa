@@ -20,7 +20,11 @@ namespace BLL
             return dalSinhVien.GetSinhViens();
         }
 
-        
+        public SinhVien GetSinhVienByMa(string maSinhVien)
+        {
+            return dalSinhVien.GetByMa(maSinhVien);
+        }
+
         public bool AddSinhVien(SinhVien sinhVien)
         {
             return dalSinhVien.ThemSinhVien(sinhVien);
