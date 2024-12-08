@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "WebKyTucXa.Controllers.ThongBaoController",
+    "Method": "GetThongBaos",
+    "RelativePath": "api/ThongBao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebKyTucXa.Controllers.ThongBaoController",
+    "Method": "GetThongBaoDetail",
+    "RelativePath": "api/ThongBao/detail/{maThongBao}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maThongBao",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebKyTucXa.Controllers.ThongBaoController",
+    "Method": "SearchThongBaos",
+    "RelativePath": "api/ThongBao/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tieuDe",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

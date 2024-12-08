@@ -1,0 +1,6 @@
+@WebKyTucXa_HostAddress = http://localhost:5171
+
+GET {{WebKyTucXa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
