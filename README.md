@@ -143,3 +143,37 @@
 <li>Website ký túc xá: hiển thị danh sách thông báo và xem chi tiết thông báo</li> 
 </ul>
 
+
+###Hướng Dẫn Cài Đặt và Khởi Chạy
+<p>Back-End API</p> <ul> 
+
+<li>Mở dự án API trong Visual Studio hoặc IDE bạn sử dụng</li> <li>Kiểm tra file `appsettings.json` để đảm bảo cấu hình connection string đến SQL Server</li> 
+<li>Build và chạy API</li> 
+<li>API sẽ khởi động tại địa chỉ được chỉ định</li> </ul> <p>Front-End ReactJS</p> <ul> 
+<li>Điều hướng đến thư mục dự án ReactJS</li> 
+<li>Chạy lệnh `npm install`, sau đó `npm start`</li> 
+<li>Truy cập giao diện web tại địa chỉ hiển thị</li> 
+</ul> 
+
+<p>WinForms</p> 
+<ul> 
+<li>Mở dự án WinForms trên Visual Studio</li> 
+<li>Build và chạy chương trình</li> 
+</ul>
+
+###Hướng Dẫn Sử Dụng
+<p>Cài Đặt</p> 
+<ul> 
+<li>Cấu hình cơ sở dữ liệu SQL Server</li> <li>Import database mẫu vào SQL Server</li> </ul> 
+
+<p>Khởi Chạy Ứng Dụng</p> 
+<ul> 
+<li>Mở dự án WinForms trên Visual Studio và build chương trình</li> 
+<li>Chạy ứng dụng ASP.NET MVC để truy cập website</li> 
+</ul> 
+
+<p>Tài Khoản Mặc Định</p> 
+<ul> 
+<li>Nhân viên quản lý: Tên Đăng Nhập: `tranbinh`, Mật Khẩu: `Aa&081103`</li> 
+<li>Nhân viên tuyển sinh: Tên Đăng Nhập: `duyquoc`, Mật Khẩu: `duyquoc%3108`</li> 
+</ul>
