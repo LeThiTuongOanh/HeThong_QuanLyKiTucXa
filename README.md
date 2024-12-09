@@ -107,7 +107,7 @@
 </ul>
 
 
-###Chức Năng Website (ReactJS + API)
+### Chức Năng Website (ReactJS + API)
 <ul> 
 <li>Xem danh sách thông báo</li> 
 <li>Xem chi tiết thông báo</li> 
@@ -144,7 +144,7 @@
 </ul>
 
 
-###Hướng Dẫn Cài Đặt và Khởi Chạy
+### Hướng Dẫn Cài Đặt và Khởi Chạy
 <p>Back-End API</p> <ul> 
 
 <li>Mở dự án API trong Visual Studio hoặc IDE bạn sử dụng</li> <li>Kiểm tra file `appsettings.json` để đảm bảo cấu hình connection string đến SQL Server</li> 
@@ -161,7 +161,7 @@
 <li>Build và chạy chương trình</li> 
 </ul>
 
-###Hướng Dẫn Sử Dụng
+### Hướng Dẫn Sử Dụng
 <p>Cài Đặt</p> 
 <ul> 
 <li>Cấu hình cơ sở dữ liệu SQL Server</li> <li>Import database mẫu vào SQL Server</li> </ul> 
